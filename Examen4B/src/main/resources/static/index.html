@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Crear reporte:</h2>
+    <label >Nombre:</label>
+    <input type="text" class="input" placeholder="Nombre">
+    <div></div>
+    <label>Descripcion:</label>
+    <input type="text" class="input" placeholder="Descripcion">
+    <div></div>
+    <label>Fecha:</label>
+    <input type="date" class="input" placeholder="Fecha">
+    <div></div>
+    <button type="createReport()">Enviar</button>
+    <div></div>
+    <p id="respuesta"></p>
+
+    <h2>Buscar Reporte por ID</h2>
+    <input id="id" type="number" placeholder="ID">
+    <button onclick="getReport()">Buscar</button>
+    <div id="find"></div>
+
+<script src="script.js">
+</script>
+</body>
+</html>
